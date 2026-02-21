@@ -56,7 +56,6 @@ struct criteria {
 	struct pattern *sandbox_engine;
 	struct pattern *sandbox_app_id;
 	struct pattern *sandbox_instance_id;
-	struct pattern *tag;
 };
 
 bool criteria_is_empty(struct criteria *criteria);
